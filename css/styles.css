@@ -49,3 +49,9 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+body {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  background: #fbfbfb;
+}
