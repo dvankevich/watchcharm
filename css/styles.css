@@ -56,6 +56,7 @@ body {
   font-family: "Gilroy", sans-serif;
   font-weight: 500;
   background: #fbfbfb;
+  color: #0c0c0c;
 }
 
 .container {
@@ -86,4 +87,70 @@ body {
 .mobile-menu-icon {
   stroke-width: 2.50px;
   stroke: #0c0c0c;
+}
+
+.hero {
+  padding-top: 60px;
+}
+
+.hero-header {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.hero-header-span {
+  color: #3350e9;
+}
+
+.hero-text {
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.hero-avatars-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 28px;
+}
+
+.hero-avatar-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-avatar-list-item {
+  margin-left: -12px;
+}
+
+.hero-avatar-list-item:first-child {
+  margin-left: 0;
+}
+
+.hero-avatar-list-item-img {
+  border-radius: 100%;
+  width: 44px;
+  height: 44px;
+}
+
+.hero-scrolldown-link {
+  display: flex;
+  align-items: end;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.hero-image {
+  display: flex;
+  border-radius: 30px;
+  padding-top: 28px;
 }
