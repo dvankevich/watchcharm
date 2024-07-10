@@ -31,10 +31,12 @@ a {
 button {
   font-family: inherit;
   color: currentColor;
+  background-color: inherit;
 }
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .visually-hidden {
@@ -54,4 +56,34 @@ body {
   font-family: "Gilroy", sans-serif;
   font-weight: 500;
   background: #fbfbfb;
+}
+
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 74px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.mobile-menu-button {
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-menu-icon {
+  stroke-width: 2.50px;
+  stroke: #0c0c0c;
 }
