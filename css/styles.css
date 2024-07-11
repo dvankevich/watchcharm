@@ -60,9 +60,10 @@ body {
 }
 
 .container {
-  width: 100%;
+  max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
+  margin: auto;
 }
 
 .header {
