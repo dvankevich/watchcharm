@@ -154,3 +154,54 @@ body {
   border-radius: 30px;
   padding-top: 28px;
 }
+
+.aboutus {
+  padding-top: 60px;
+}
+
+
+.aboutus-content {
+  border-radius: 30px;
+  background: #f3f3f3;
+  padding: 40px 20px 40px 20px;
+}
+
+
+
+.aboutus-header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.aboutus-text {
+  display: flex;
+  flex-direction: column;
+  flex font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  gap: 20px;
+  padding-top: 28px;
+  padding-bottom: 40px;
+}
+
+.aboutus-button {
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border-radius: 16px;
+  border: 0;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+}
+
+.aboutus-image {
+  display: flex;
+  border-radius: 30px;
+  padding-top: 20px;
+}
