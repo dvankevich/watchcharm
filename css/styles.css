@@ -63,7 +63,7 @@ body {
   max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .header {
@@ -180,7 +180,7 @@ body {
 .aboutus-text {
   display: flex;
   flex-direction: column;
-  flex font-size: 14px;
+  font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
@@ -205,4 +205,73 @@ body {
   display: flex;
   border-radius: 30px;
   padding-top: 20px;
+}
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.catalog-header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-bottom: 24px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.catalog-list-item {
+  padding: 24px 28px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background: #f3f3f3;
+}
+
+.catalog-list-item:nth-child(n + 5) {
+  display: none;
+}
+
+.catalog-item-name {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.catalog-item-price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+.catalog-item-image {
+  display: flex;
+  align-items: center;
+  padding: 24px 28px 0 28px;
+}
+
+.catalog-button {
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border: 0;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  margin-top: 40px;
 }
