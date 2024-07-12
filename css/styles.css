@@ -275,3 +275,28 @@ body {
   background: #3350e9;
   margin-top: 40px;
 }
+
+.advertisment {
+  margin-top: 60px;
+  padding: 60px 28px;
+  max-width: 335px;
+
+  border-radius: 30px;
+  background: #0c0c0c;
+  background-image: url(/images/advertisment-mobile.png);
+}
+
+.advertisment-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  padding-bottom: 28px;
+}
+
+.advertisment-span {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisment-link {}
