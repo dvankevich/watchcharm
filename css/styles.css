@@ -299,4 +299,144 @@ body {
   color: rgba(251, 251, 251, 0.5);
 }
 
-.advertisment-link {}
+.advertisment-link-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+
+}
+
+.advertisment-link {
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.sale {
+  padding-top: 60px;
+}
+
+.sale-header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-bottom: 24px;
+}
+
+.sale-list {
+  display: flex;
+  gap: 5px;
+}
+
+.sale-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+  background: #f3f3f3;
+
+}
+
+.sale-list-item-image {
+  width: 52px;
+  height: 54px;
+}
+
+.sale-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background: #f3f3f3;
+  margin-top: 20px;
+}
+
+.sale-image {
+  transform: rotate(-180deg);
+}
+
+.sale-card {
+  border-radius: 30px;
+  background: #3350e9;
+  margin-top: 20px;
+  padding: 48px 28px 40px 28px;
+}
+
+.sale-name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  padding-bottom: 10px;
+}
+
+.sale-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  padding-bottom: 20px;
+}
+
+.sale-price-list {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+
+}
+
+.sale-price-1 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: rgba(251, 251, 251, 0.1);
+}
+
+.sale-price-2 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+  padding: 0;
+}
+
+.sale-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  padding: 28px 0;
+}
+
+.sale-properties-list {
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+}
+
+.sale-properties-list-item {
+  display: inline-block;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+}
