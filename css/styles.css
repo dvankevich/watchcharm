@@ -148,6 +148,12 @@ body {
   letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-scrolldown-link:hover,
+.hero-scrolldown-link:focus {
+  color: #3350e9;
 }
 
 .hero-image {
@@ -190,15 +196,21 @@ body {
 }
 
 .aboutus-button {
+  display: inline-block;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.29;
+  line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
   border-radius: 16px;
-  border: 0;
-  width: 160px;
-  height: 48px;
-  background: #3350e9;
+  background-color: #3350e9;
+  padding: 15px 38px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.aboutus-button:hover,
+.aboutus-button:focus {
+  background-color: #1f3cd4;
 }
 
 .aboutus-image {
@@ -530,11 +542,17 @@ body {
   font-size: 14px;
   line-height: 1.29;
   color: #0c0c0c;
-  background-color: inherit;
+  outline: transparent;
+  background-color: transparent;
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
   margin-bottom: 18px;
   padding: 12px 14px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contactus-form-input:focus {
+  border: 1px solid #3350e9;
 }
 
 .contactus-form-textarea {
@@ -542,12 +560,18 @@ body {
   font-size: 14px;
   line-height: 1.29;
   color: #0c0c0c;
-  background-color: inherit;
+  outline: transparent;
+  background-color: transparent;
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
   height: 84px;
   margin-bottom: 28px;
   padding: 12px 14px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contactus-form-textarea:focus {
+  border: 1px solid #3350e9;
 }
 
 .contactus-form-send {
@@ -567,10 +591,10 @@ body {
 }
 
 .footer {
-
+  max-width: 335px;
   border-radius: 30px;
   background: #0c0c0c;
-  margin: 60px 20px 20px 20px;
+  margin: 60px auto 20px auto;
   padding: 40px 28px 28px 28px;
 }
 
@@ -604,11 +628,21 @@ body {
 }
 
 .footer-social-icon {
-
+  opacity: 0.8;
   width: 18px;
   height: 18px;
   fill: #FBFBFB;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+  opacity: 1;
+}
+
+.footer-social-list-link:hover .footer-social-icon,
+.footer-social-list-link:focus .footer-social-icon {
+  opacity: 1;
 }
 
 .footer-phone {

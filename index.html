@@ -52,7 +52,7 @@
       </picture>
     </section>
 
-    <section class="aboutus container">
+    <section class="aboutus container" id="aboutus">
       <div class="aboutus-content">
 
         <h2 class="aboutus-header">About Us</h2>
@@ -69,7 +69,7 @@
             statement piece
             that reflects your personality and style. So why settle for anything less than the best?</p>
         </div>
-        <button class="aboutus-button" type="button">View catalog</button>
+        <a href="#catalog" class="aboutus-button">View catalog</a>
       </div>
       <picture class="aboutus-image">
         <source srcset="/images/aboutus-desktop.jpg 1x, /images/aboutus-desktop@2x.jpg 2x"
@@ -79,7 +79,7 @@
         <img src="/images/aboutus-desktop.jpg" alt="black wristwatch" />
       </picture>
     </section>
-    <section class="catalog container">
+    <section class="catalog container" id="catalog">
       <h2 class="catalog-header">Catalog</h2>
       <ul class="catalog-list">
         <li class="catalog-list-item">
@@ -172,7 +172,7 @@
         <a href="#contactus" class="advertisment-link">Contact Us</a>
       </div>
     </section>
-    <section class="sale container">
+    <section class="sale container" id="sale">
       <h2 class="sale-header">Sale</h2>
       <ul class="sale-list">
         <li class="sale-list-item">
@@ -234,7 +234,7 @@
         </ul>
       </div>
     </section>
-    <section class="reviews container">
+    <section class="reviews container" id="reviews">
       <h2 class="reviews-header">Reviews</h2>
       <ul class="reviews-list">
         <li class="reviews-item">
@@ -269,7 +269,7 @@
         </li>
       </ul>
     </section>
-    <section class="contactus container">
+    <section class="contactus container" id="contactus">
       <h2 class="contactus-header">Contact Us</h2>
       <div class="contactus-wrapper">
         <p class="contactus-description">Please use the form below to contact us. Enter your name, email,
@@ -284,7 +284,7 @@
 
           <label class="visually-hidden" for="userphone">Phone</label>
           <input pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" class="contactus-form-input" type="tel" name="userphone"
-            id="userphone" placeholder="+380-00-000-00-00" value="+380-" required />
+            id="userphone" placeholder="+380-00-000-00-00" required />
 
           <label class="visually-hidden" for="user-comment">Comment</label>
           <textarea class="contactus-form-textarea" name="user-comment" id="user-comment" placeholder="Comment"
@@ -341,19 +341,19 @@
             <a class="footer-link" href="#top">Home</a>
           </li>
           <li class="footer-links-item">
-            <a class="footer-link" href="">About Us</a>
+            <a class="footer-link" href="#aboutus">About Us</a>
           </li>
           <li class="footer-links-item">
-            <a class="footer-link" href="">Catalog</a>
+            <a class="footer-link" href="#catalog">Catalog</a>
           </li>
           <li class="footer-links-item">
-            <a class="footer-link" href="">Sale</a>
+            <a class="footer-link" href="#sale">Sale</a>
           </li>
           <li class="footer-links-item">
-            <a class="footer-link" href="">Reviews</a>
+            <a class="footer-link" href="#reviews">Reviews</a>
           </li>
           <li class="footer-links-item">
-            <a class="footer-link" href="">Contact Us</a>
+            <a class="footer-link" href="#contactus">Contact Us</a>
           </li>
         </ul>
       </nav>
