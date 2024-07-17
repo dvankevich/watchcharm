@@ -374,9 +374,7 @@ body {
   margin-top: 20px;
 }
 
-.sale-image {
-  transform: rotate(-180deg);
-}
+.sale-image {}
 
 .sale-card {
   border-radius: 30px;
@@ -853,4 +851,73 @@ body {
 
 .mobile-social-list-icon {
   fill: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .header {
+    height: 92px;
+  }
+
+  .header-logo {
+    font-size: 20px;
+  }
+
+  .hero {
+    padding-top: 80px;
+  }
+
+  .hero-wrapper {
+    display: flex;
+  }
+
+  .hero-header-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-header {
+    font-size: 70px;
+    line-height: 0.86;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-right: 77px;
+  }
+
+  .hero-avatars-container {
+    display: flex;
+    flex-direction: column;
+    width: 136px;
+    padding-top: 0;
+  }
+
+  .hero-avatar-list-item {
+    width: 56px;
+    height: 56px;
+    margin-left: -15px;
+  }
+
+  .hero-avatar-list-item-img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero-scrolldown-link {
+    justify-content: flex-end;
+    font-size: 20px;
+    line-height: 1.0;
+  }
+
+  .hero-image {
+    padding-top: 40px;
+    border-radius: 50px;
+  }
 }
