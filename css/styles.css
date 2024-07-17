@@ -756,7 +756,7 @@ body {
   background-image: linear-gradient(0deg,
       rgba(12, 12, 12, 0.92) 0%,
       rgba(12, 12, 12, 0.92) 100%),
-    url(/images/menu-img-mobile.png);
+    url(../images/menu-img-mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -768,7 +768,7 @@ body {
     background-image: linear-gradient(0deg,
         rgba(12, 12, 12, 0.92) 0%,
         rgba(12, 12, 12, 0.92) 100%),
-      url(/images/menu/menu-img-mobile@2x.png);
+      url(../images/menu/menu-img-mobile@2x.png);
   }
 }
 
