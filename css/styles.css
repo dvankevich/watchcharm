@@ -1,4 +1,4 @@
-@import url('./fonts/stylesheet.css');
+@import url('../fonts/stylesheet.css');
 
 *,
 *::before,
@@ -295,7 +295,7 @@ body {
 
   border-radius: 30px;
   background: #0c0c0c;
-  background-image: url(./images/advertisment-mobile.png);
+  background-image: url(../images/advertisment-mobile.png);
 }
 
 .advertisment-text {
