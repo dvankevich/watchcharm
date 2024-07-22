@@ -159,7 +159,8 @@ body {
 .hero-image {
   display: flex;
   border-radius: 30px;
-  padding-top: 28px;
+  margin-top: 28px;
+  overflow: hidden;
 }
 
 .aboutus {
@@ -216,13 +217,11 @@ body {
 .aboutus-image {
   display: flex;
   border-radius: 30px;
-  padding-top: 20px;
+  margin-top: 20px;
+  overflow: hidden;
 }
 
 .catalog {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-top: 60px;
 }
 
@@ -238,6 +237,7 @@ body {
 .catalog-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
 }
 
@@ -917,7 +917,7 @@ body {
   }
 
   .hero-image {
-    padding-top: 40px;
+    margin-top: 40px;
     border-radius: 50px;
   }
 
@@ -935,8 +935,34 @@ body {
 
   .aboutus-image {
     border-radius: 50px;
-    padding-top: 40px;
+    margin-top: 40px;
   }
 
+  .catalog {
+    padding-top: 80px;
+  }
 
+  .catalog-header {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+
+  .catalog-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px 16px;
+  }
+
+  .catalog-list-item {
+    padding: 24px 32px;
+    width: calc((100% - 16px)/2);
+  }
+
+  .catalog-list-item:nth-child(n + 5) {
+    display: inline-block;
+  }
+
+  .catalog-button {
+    display: none;
+  }
 }
