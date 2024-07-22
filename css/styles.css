@@ -187,7 +187,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 14px;
-  line-height: 129%;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
   gap: 20px;
@@ -920,4 +920,23 @@ body {
     padding-top: 40px;
     border-radius: 50px;
   }
+
+  .aboutus-content {
+    border-radius: 50px;
+    padding: 80px 60px;
+  }
+
+  .aboutus-text {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .aboutus-image {
+    border-radius: 50px;
+    padding-top: 40px;
+  }
+
+
 }
