@@ -295,7 +295,6 @@ body {
   margin-top: 60px;
   padding: 60px 28px;
   max-width: 335px;
-
   border-radius: 30px;
   background: #0c0c0c;
   background-image: url(../images/advertisment-mobile.png);
@@ -965,9 +964,22 @@ body {
     display: inline-block;
   }
 
-  .catalog-item-image {}
+  .catalog-item-name {
+    font-size: 20px;
+    line-height: 1.0;
+  }
+
 
   .catalog-button {
     display: none;
   }
+
+  .advertisment {
+    margin-top: 80px;
+    padding: 80px 64px;
+    max-width: 704px;
+    border-radius: 30px;
+    background-image: url(../images/advertisment-tablet.png);
+  }
+
 }
