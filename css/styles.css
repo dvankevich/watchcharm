@@ -1025,6 +1025,7 @@ body {
   .sale-card {
     border-radius: 50px;
     margin-top: 40px;
+    padding: 60px;
   }
 
   .sale-name {
