@@ -376,8 +376,6 @@ body {
   margin-top: 20px;
 }
 
-.sale-image {}
-
 .sale-card {
   border-radius: 30px;
   background: #3350e9;
@@ -980,6 +978,74 @@ body {
     max-width: 704px;
     border-radius: 30px;
     background-image: url(../images/advertisment-tablet.png);
+  }
+
+  .sale {
+    padding-top: 80px;
+  }
+
+  .sale-header {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+  }
+
+  .sale-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+  }
+
+  .sale-list-item {
+    border-radius: 20px;
+    width: 132px;
+    height: 132px;
+    padding: 16px 18px;
+  }
+
+  .sale-list-item-image {
+    width: 96px;
+    height: 100px;
+  }
+
+  .sale-list-and-image {
+    display: flex;
+  }
+
+  .sale-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 0;
+    width: 552px;
+  }
+
+  .sale-card {
+    border-radius: 50px;
+    margin-top: 40px;
+  }
+
+  .sale-name {
+    font-weight: 600;
+    font-size: 32px;
+  }
+
+  .sale-price-1 {
+    font-size: 20px;
+    line-height: 1.0;
+  }
+
+  .sale-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .sale-properties-list {
+    font-size: 14px;
+    line-height: 1.29;
+    width: 398px;
   }
 
 }
