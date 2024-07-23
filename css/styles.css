@@ -246,6 +246,7 @@ body {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background: #f3f3f3;
+  width: 100%;
 }
 
 .catalog-list-item:nth-child(n + 5) {
@@ -269,10 +270,12 @@ body {
   color: rgba(12, 12, 12, 0.5);
 }
 
+/* https: //www.w3schools.com/howto/howto_css_image_center.asp */
+/* https: //www.freecodecamp.org/news/how-to-center-an-image-in-a-div-css/ */
 .catalog-item-image {
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 24px 28px 0 28px;
 }
 
 .catalog-button {
@@ -768,7 +771,7 @@ body {
     background-image: linear-gradient(0deg,
         rgba(12, 12, 12, 0.92) 0%,
         rgba(12, 12, 12, 0.92) 100%),
-      url(../images/menu/menu-img-mobile@2x.png);
+      url(../images/menu-img-mobile@2x.png);
   }
 }
 
@@ -961,6 +964,8 @@ body {
   .catalog-list-item:nth-child(n + 5) {
     display: inline-block;
   }
+
+  .catalog-item-image {}
 
   .catalog-button {
     display: none;
