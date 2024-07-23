@@ -464,7 +464,7 @@ body {
   padding-bottom: 24px;
 }
 
-.reviews-list {}
+
 
 .reviews-item {
   display: flex;
@@ -494,7 +494,7 @@ body {
 
 .reviews-text {
   font-size: 14px;
-  line-height: 129%;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(12, 12, 12, 0.4);
@@ -1046,6 +1046,39 @@ body {
     font-size: 14px;
     line-height: 1.29;
     width: 398px;
+  }
+
+  .reviews {
+    padding-top: 80px;
+  }
+
+  .reviews-header {
+    font-size: 48px;
+    line-height: 92%;
+    padding-bottom: 80px;
+  }
+
+  .reviews-list {
+    display: flex;
+    gap: 16px;
+  }
+
+  .reviews-item:nth-child(n + 2) {
+    display: flex;
+  }
+
+  .reviews-item:nth-child(n + 3) {
+    display: none;
+  }
+
+  .reviews-name {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
   }
 
 }
