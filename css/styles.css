@@ -644,9 +644,8 @@ body {
 }
 
 .footer-phone {
-
   font-size: 12px;
-  line-height: 133%;
+  line-height: 1.33;
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
@@ -659,7 +658,7 @@ body {
 .footer-text {
   font-weight: 600;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
@@ -684,8 +683,6 @@ body {
   width: 147px;
 }
 
-.footer-links-item {}
-
 .footer-link {
   font-size: 12px;
   line-height: 133%;
@@ -695,13 +692,13 @@ body {
 
 .footer-address {
   font-size: 12px;
-  line-height: 133%;
+  line-height: 1.33;
   color: #fbfbfb;
 }
 
 .copyright {
   font-size: 10px;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.5);
   padding-top: 24px;
@@ -716,11 +713,6 @@ body {
   display: flex;
   gap: 20px;
 }
-
-.copyright-links-item {}
-
-.copyright-link {}
-
 
 .mobile-menu-container {
   display: flex;
@@ -1125,5 +1117,86 @@ body {
 
   .contactus-image {
     border-radius: 50px;
+  }
+
+  .footer {
+    max-width: 704px;
+    border-radius: 30px;
+    padding: 40px 40px 28px 40px;
+    margin: 80px auto 32px auto;
+  }
+
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-social-list {
+    margin-bottom: 0;
+  }
+
+  .footer-social-list-item {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-social-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-phone {
+    font-size: 14px;
+    line-height: 1.29;
+    padding: 15px;
+    margin-top: 0;
+  }
+
+  .footer-text {
+    font-size: 28px;
+    line-height: 1.14;
+    margin-top: 86px;
+    padding: 0 50px;
+  }
+
+  .footer-logo-social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-logo-phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer-nav-address-wrapper {
+    margin-top: 100px;
+    padding-bottom: 24px;
+  }
+
+  .footer-navigation {
+    margin: 0 62px 0 0;
+  }
+
+  .footer-links-list {
+    width: 400px;
+  }
+
+  .footer-link {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-address {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 1.29;
+    padding-top: 28px;
   }
 }
