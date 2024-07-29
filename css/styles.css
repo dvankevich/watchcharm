@@ -1304,4 +1304,22 @@ body {
     line-height: 0.87;
   }
 
+  .aboutus {
+    display: flex;
+    padding-top: 100px;
+  }
+
+  .aboutus-content {
+    width: 580px;
+    margin-right: 40px;
+  }
+
+  .aboutus-text {
+    padding-bottom: 40px;
+  }
+
+  .aboutus-image {
+    margin-top: 0;
+  }
+
 }
