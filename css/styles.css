@@ -1333,4 +1333,19 @@ body {
   .catalog-list-item {
     width: calc((100% - 46px)/3);
   }
+
+  .advertisment {
+    display: flex;
+    margin-top: 100px;
+    padding: 83px 80px;
+    max-width: 1150px;
+    border-radius: 30px;
+    background-image: url(../images/advertisment-desktop.png);
+  }
+
+  .advertisment-text {
+    padding-right: 140px;
+  }
+
+
 }
