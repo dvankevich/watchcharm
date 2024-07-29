@@ -1322,4 +1322,15 @@ body {
     margin-top: 0;
   }
 
+  .catalog {
+    padding-top: 100px;
+  }
+
+  .catalog-list {
+    gap: 32px 23px;
+  }
+
+  .catalog-list-item {
+    width: calc((100% - 46px)/3);
+  }
 }
