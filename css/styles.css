@@ -1347,5 +1347,48 @@ body {
     padding-right: 140px;
   }
 
+  .sale {
+    padding-top: 100px;
+  }
 
+  .sale-header {
+    font-size: 48px;
+    line-height: 0.92;
+    padding-bottom: 40px;
+  }
+
+  .sale-wrapper {
+    display: flex;
+  }
+
+  .sale-list {
+    gap: 10px;
+  }
+
+  .sale-list-item {
+    border-radius: 20px;
+    width: 132px;
+    height: 132px;
+  }
+
+  .sale-list-item-image {
+    width: 96px;
+    height: 100px;
+  }
+
+  .sale-image-wrapper {
+    width: 428px;
+    height: 558px;
+    margin-right: 40px;
+  }
+
+  .sale-card {
+    border-radius: 50px;
+    margin: 0;
+  }
+
+  .sale-name {
+    font-size: 32px;
+    line-height: 1.12;
+  }
 }
