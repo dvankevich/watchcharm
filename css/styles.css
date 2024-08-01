@@ -599,6 +599,11 @@ body {
 }
 
 .contactus-image {
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.contactus-image img {
   border-radius: 30px;
 }
 
