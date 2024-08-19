@@ -326,38 +326,40 @@
     </section>
     <section class="contactus container" id="contactus">
       <h2 class="contactus-header">Contact Us</h2>
-      <div class="contactus-wrapper">
-        <p class="contactus-description">Please use the form below to contact us. Enter your name, email,
-          phone, and message and we'll get back to you shortly.</p>
-        <form class="contactus-form">
-          <label class="visually-hidden" for="username">Name</label>
-          <input class="contactus-form-input" type="text" name="username" id="username" placeholder="Name" required />
+      <div class="contactus-content">
+        <div class="contactus-wrapper">
+          <p class="contactus-description">Please use the form below to contact us. Enter your name, email,
+            phone, and message and we'll get back to you shortly.</p>
+          <form class="contactus-form">
+            <label class="visually-hidden" for="username">Name</label>
+            <input class="contactus-form-input" type="text" name="username" id="username" placeholder="Name" required />
 
-          <label class="visually-hidden" for="useremail">Email</label>
-          <input class="contactus-form-input" type="email" name="useremail" id="useremail" placeholder="Email"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required />
+            <label class="visually-hidden" for="useremail">Email</label>
+            <input class="contactus-form-input" type="email" name="useremail" id="useremail" placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required />
 
-          <label class="visually-hidden" for="userphone">Phone</label>
-          <input pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" class="contactus-form-input" type="tel" name="userphone"
-            id="userphone" placeholder="+380-00-000-00-00" required />
+            <label class="visually-hidden" for="userphone">Phone</label>
+            <input pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" class="contactus-form-input" type="tel" name="userphone"
+              id="userphone" placeholder="+380-00-000-00-00" required />
 
-          <label class="visually-hidden" for="user-comment">Comment</label>
-          <textarea class="contactus-form-textarea" name="user-comment" id="user-comment" placeholder="Comment"
-            rows="1"></textarea>
+            <label class="visually-hidden" for="user-comment">Comment</label>
+            <textarea class="contactus-form-textarea" name="user-comment" id="user-comment" placeholder="Comment"
+              rows="1"></textarea>
 
-          <button class="contactus-form-send" type="submit">Send</button>
-        </form>
+            <button class="contactus-form-send" type="submit">Send</button>
+          </form>
+        </div>
+
+        <picture class="contactus-image">
+          <source srcset="./images/contactus-desktop.jpg 1x, ./images/contactus-desktop@2x.jpg 2x"
+            media="(min-width: 1280px)" />
+          <source srcset="./images/contactus-tablet.jpg 1x, ./images/contactus-tablet@2x.jpg 2x"
+            media="(min-width: 768px)" />
+          <source srcset="./images/contactus-mobile.jpg 1x, ./images/contactus-mobile@2x.jpg 2x"
+            media="(max-width: 767px)" />
+          <img src="./images/contactus-desktop.jpg" alt="black wristwatch on brick" />
+        </picture>
       </div>
-
-      <picture class="contactus-image">
-        <source srcset="./images/contactus-desktop.jpg 1x, ./images/contactus-desktop@2x.jpg 2x"
-          media="(min-width: 1280px)" />
-        <source srcset="./images/contactus-tablet.jpg 1x, ./images/contactus-tablet@2x.jpg 2x"
-          media="(min-width: 768px)" />
-        <source srcset="./images/contactus-mobile.jpg 1x, ./images/contactus-mobile@2x.jpg 2x"
-          media="(max-width: 767px)" />
-        <img src="./images/contactus-desktop.jpg" alt="black wristwatch on brick" />
-      </picture>
     </section>
 
     <div class="mobile-menu-container js-menu-container" id="mobile-menu">

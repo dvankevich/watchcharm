@@ -1396,4 +1396,62 @@ body {
     font-size: 32px;
     line-height: 1.12;
   }
+
+  .contactus {
+    padding-top: 100px;
+  }
+
+  .contactus-header {
+    font-size: 48px;
+    line-height: 0.92;
+    padding-bottom: 40px;
+
+  }
+
+  .contactus-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .contactus-wrapper {
+    border-radius: 50px;
+    width: 580px;
+    height: 556px;
+    padding: 50px 60px;
+    margin: 0;
+  }
+
+  .contactus-description {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .contactus-form-input {
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 16px 18px;
+  }
+
+  .contactus-form-textarea {
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 16px 16px;
+    height: 90px;
+  }
+
+  .contactus-form-send {
+    padding: 17px 0;
+    width: 160px;
+  }
+
+  .contactus-image {
+    overflow: hidden;
+    border-radius: 50px;
+    height: 556px;
+  }
+
+  .contactus-image img {
+    border-radius: 50px;
+  }
 }
