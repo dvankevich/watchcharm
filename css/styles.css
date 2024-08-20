@@ -704,7 +704,7 @@ body {
 
 .footer-link {
   font-size: 12px;
-  line-height: 133%;
+  line-height: 1.33;
   text-align: center;
   color: #fbfbfb;
 }
@@ -1438,6 +1438,7 @@ body {
     line-height: 1.25;
     padding: 16px 16px;
     height: 90px;
+    resize: none;
   }
 
   .contactus-form-send {
@@ -1453,5 +1454,74 @@ body {
 
   .contactus-image img {
     border-radius: 50px;
+  }
+
+  .footer {
+    max-width: 1216px;
+    padding: 40px 40px 28px 40px;
+    margin: 100px auto 32px auto;
+  }
+
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-social-list {
+    margin: 0;
+  }
+
+  .footer-social-list-item {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-social-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-phone {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-text {
+    font-size: 28px;
+    line-height: 1.14;
+    margin: 0;
+    padding: 0;
+    width: 523px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -79px;
+  }
+
+  .footer-nav-address-wrapper {
+    margin-top: 47px;
+    justify-content: space-between;
+    padding-bottom: 28px;
+  }
+
+  .footer-links-list {
+    gap: 40px;
+    width: 100%;
+  }
+
+  .footer-link {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-address {
+    display: flex;
+    font-size: 14px;
+    line-height: 1.29;
+    width: 162px;
+  }
+
+  .copyright {
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
