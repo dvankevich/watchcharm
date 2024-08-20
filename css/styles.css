@@ -1397,6 +1397,34 @@ body {
     line-height: 1.12;
   }
 
+  .reviews {
+    padding-top: 100px;
+  }
+
+  .reviews-list {
+    gap: 20px;
+  }
+
+  .reviews-item:nth-child(n + 2) {
+    display: flex;
+  }
+
+  .reviews-header {
+    font-size: 48px;
+    line-height: 0.92;
+    padding-bottom: 40px;
+  }
+
+  .reviews-name {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
   .contactus {
     padding-top: 100px;
   }
