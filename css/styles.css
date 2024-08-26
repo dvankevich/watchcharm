@@ -749,6 +749,7 @@ body {
 
 .mobile-menu-container.is-open {
   opacity: 1;
+  pointer-events: all;
 }
 
 .mobile-menu {

@@ -52,8 +52,11 @@
         </li>
       </ul>
 
-
-      <button class="mobile-menu-button js-open-menu" type="button">
+      <!--         Додати на кнопку відкриття клас js-open-menu та атрибути 
+        aria-expanded="false"
+        aria-controls="mobile-menu" -->
+      <button class="mobile-menu-button menu-toggle js-open-menu" type="button" aria-expanded="false"
+        aria-controls="mobile-menu">
         <svg class="mobile-menu-icon" width="34" height="34" aria-hidden="true">
           <use href="./images/icons.svg#icon-menu"></use>
         </svg>
