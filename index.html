@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./css/styles.css" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,12 +92,14 @@
           <a class="hero-scrolldown-link" href="#aboutus">Scroll down</a>
         </div>
       </div>
-      <picture class="hero-image">
-        <source srcset="./images/hero-desktop.jpg 1x, ./images/hero-desktop@2x.jpg 2x" media="(min-width: 1280px)" />
-        <source srcset="./images/hero-tablet.jpg 1x, ./images/hero-tablet@2x.jpg 2x" media="(min-width: 768px)" />
-        <source srcset="./images/hero-mobile.jpg 1x, ./images/hero-mobile@2x.jpg 2x" media="(max-width: 767px)" />
-        <img src="./images/hero-desktop.jpg" alt="black wristwatch" />
-      </picture>
+      <div data-aos="fade-up-right">
+        <picture class="hero-image">
+          <source srcset="./images/hero-desktop.jpg 1x, ./images/hero-desktop@2x.jpg 2x" media="(min-width: 1280px)" />
+          <source srcset="./images/hero-tablet.jpg 1x, ./images/hero-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+          <source srcset="./images/hero-mobile.jpg 1x, ./images/hero-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+          <img src="./images/hero-desktop.jpg" alt="black wristwatch" />
+        </picture>
+      </div>
     </section>
 
     <section class="aboutus container" id="aboutus">
@@ -118,13 +121,17 @@
         </div>
         <a href="#catalog" class="aboutus-button">View catalog</a>
       </div>
-      <picture class="aboutus-image">
-        <source srcset="./images/aboutus-desktop.jpg 1x, ./images/aboutus-desktop@2x.jpg 2x"
-          media="(min-width: 1280px)" />
-        <source srcset="./images/aboutus-tablet.jpg 1x, ./images/aboutus-tablet@2x.jpg 2x" media="(min-width: 768px)" />
-        <source srcset="./images/aboutus-mobile.jpg 1x, ./images/aboutus-mobile@2x.jpg 2x" media="(max-width: 767px)" />
-        <img src="./images/aboutus-desktop.jpg" alt="black wristwatch" />
-      </picture>
+      <div data-aos="fade-left">
+        <picture class="aboutus-image">
+          <source srcset="./images/aboutus-desktop.jpg 1x, ./images/aboutus-desktop@2x.jpg 2x"
+            media="(min-width: 1280px)" />
+          <source srcset="./images/aboutus-tablet.jpg 1x, ./images/aboutus-tablet@2x.jpg 2x"
+            media="(min-width: 768px)" />
+          <source srcset="./images/aboutus-mobile.jpg 1x, ./images/aboutus-mobile@2x.jpg 2x"
+            media="(max-width: 767px)" />
+          <img src="./images/aboutus-desktop.jpg" alt="black wristwatch" />
+        </picture>
+      </div>
     </section>
     <section class="catalog container" id="catalog">
       <h2 class="catalog-header">Catalog</h2>
@@ -448,16 +455,17 @@
             <button class="contactus-form-send" type="submit">Send</button>
           </form>
         </div>
-
-        <picture class="contactus-image">
-          <source srcset="./images/contactus-desktop.jpg 1x, ./images/contactus-desktop@2x.jpg 2x"
-            media="(min-width: 1280px)" />
-          <source srcset="./images/contactus-tablet.jpg 1x, ./images/contactus-tablet@2x.jpg 2x"
-            media="(min-width: 768px)" />
-          <source srcset="./images/contactus-mobile.jpg 1x, ./images/contactus-mobile@2x.jpg 2x"
-            media="(max-width: 767px)" />
-          <img src="./images/contactus-desktop.jpg" alt="black wristwatch on brick" />
-        </picture>
+        <div data-aos="zoom-in">
+          <picture class="contactus-image">
+            <source srcset="./images/contactus-desktop.jpg 1x, ./images/contactus-desktop@2x.jpg 2x"
+              media="(min-width: 1280px)" />
+            <source srcset="./images/contactus-tablet.jpg 1x, ./images/contactus-tablet@2x.jpg 2x"
+              media="(min-width: 768px)" />
+            <source srcset="./images/contactus-mobile.jpg 1x, ./images/contactus-mobile@2x.jpg 2x"
+              media="(max-width: 767px)" />
+            <img src="./images/contactus-desktop.jpg" alt="black wristwatch on brick" />
+          </picture>
+        </div>
       </div>
     </section>
 
@@ -598,6 +606,7 @@
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
     integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
